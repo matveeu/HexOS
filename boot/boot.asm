@@ -18,7 +18,7 @@ start:
     xor bx, bx
 
     mov ah, 0x02 ; BIOS read sectors
-    mov al, 0x01 ; 1st sector
+    mov al, 0x05 ; 5 sectors
     mov ch, 0x00 ; cylinder 0
     mov dh, 0x00 ; head 0
     mov cl, 0x02 ; 2nd sector
